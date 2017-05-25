@@ -1,0 +1,96 @@
+.popup {
+	margin: auto; 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	bottom: 0; 
+	right: 0;
+	border: 1px solid black;
+	border-radius: 10px;
+	font-family: arial;
+}
+
+.outer {	 
+	width:510px; 
+	height:200px;
+	background: lightgray;
+}
+
+.inner {
+	width:90%; 
+	height:65%;
+	top: 30px;
+	background: white;
+}
+
+h1 {
+	background: black;
+    color: white;
+    margin-top: 0;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.target {
+	display: inline-block;
+    background: gray;
+    border: 1px solid black;
+    color: white;
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+    vertical-align: middle;
+    margin-left: -4px;
+}
+
+.popup-content {
+	margin: auto;
+    width: 80%;
+    vertical-align: middle;
+    padding: 10px;
+    text-align: center;
+}
+
+.bar-message {
+	padding: 15px;
+	color:gray;
+}
+
+.bar-label {
+	font-weight: bold;
+	color: gray;
+	display: inline-block;
+    vertical-align: middle;
+}
+
+.message-detail {
+	display: inline-block;
+    vertical-align: middle;
+}
+
+.progress-bar {
+	border: 1px solid beige;
+	width: 200px;
+	display: inline-block;
+	vertical-align: middle;
+	height: 12px;
+}
+.progress-bar > div {
+	height: 12px;
+	background: green;
+	width: 0%;
+}
+
+.progress-detail {
+	position: relative;
+    text-align: start;
+    font-weight: bold;
+    top: -15px;
+}
+
+.bar-section {
+	height: 70px;
+}
