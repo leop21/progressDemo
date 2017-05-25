@@ -72,11 +72,12 @@ h1 {
 }
 
 .progress-bar {
-	border: 1px solid beige;
+	border: 1px solid whitesmoke;
 	width: 200px;
 	display: inline-block;
 	vertical-align: middle;
 	height: 12px;
+	background: whitesmoke;
 }
 .progress-bar > div {
 	height: 12px;
